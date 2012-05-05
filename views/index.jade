@@ -1,5 +1,10 @@
 h2
  div= title
+
+each tag in tags
+ a(href='/list/#{tag}') #{tag}
+ &nbsp;
+
 ul
  each tweet in tweets
   li
