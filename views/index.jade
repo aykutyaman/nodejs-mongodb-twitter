@@ -1,0 +1,10 @@
+h2
+ div= title
+ul
+ each tweet in tweets
+  li
+   img(id='add-razaoSocial', class='input-img', src='#{tweet.profile_image_url}')
+   a(href='http://twitter.com/#{tweet.from_user}') ##{tweet.from_user_name}
+   #{tweet.text}
+
+ 

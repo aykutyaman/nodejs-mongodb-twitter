@@ -1,0 +1,11 @@
+{
+ "DATABASE_NAME": "twitter-archive",
+  "COLLECTION_NAME": "tweets",
+  "TAGS": ["mongodb", "node"],
+  "TWITTER": {
+    "CONSUMER_KEY":"DfgrtfmXpbW0b117EVO0A",
+	"CONSUMER_SECRET": "tYNvaJkv3zndNtNcXFooBoJGoo1PcbAnllEYHwY",
+	"ACCESS_TOKEN_KEY":"103742245-0tdqLLR2JACwNp2cE25a4Oa8SGdoV8wIQi6WUZnO",
+	"ACCESS_TOKEN_SECRET": "XipIWFPeWvCxzTMMAk0itFZMyBYrFxrHDopKQ5MRM"
+  } 
+}
